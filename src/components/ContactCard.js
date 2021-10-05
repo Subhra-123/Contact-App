@@ -8,7 +8,7 @@ const ContactCard = ({contact,deleteContact}) => {
             <div className="content">
                 <div className="header">{contact.name}</div>
                 <div>{contact.email}</div>
-                <div>{contact.id}</div>
+                
             </div>
             <i onClick={()=>deleteContact(contact.id)} 
             className="trash alternate outline icon" style={{ position: "absolute", top: "10px", right: "0", fontSize: "20px", color: "red" }} ></i>

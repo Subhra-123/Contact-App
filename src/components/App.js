@@ -3,6 +3,7 @@ import Header from './Header';
 import AddContact from './AddContact';
 import ContactList from './ContactList';
 import { uuid } from 'uuidv4';
+import { BrowserRouter as Router, Switch,Route } from 'react-router-dom';
 
 const App = () => {
   const LOCAL_STORAGE_KEY="contacts";
